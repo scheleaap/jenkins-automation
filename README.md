@@ -1,6 +1,6 @@
 # An example of how to set up Jenkins in a fully automated way
 
-[![Build Status](https://travis-ci.org/depositsolutions/jenkins-automation.svg?branch=master)](https://travis-ci.org/depositsolutions/jenkins-automation)
+[![Build Status](https://travis-ci.org/scheleaap/jenkins-automation.svg?branch=master)](https://travis-ci.org/scheleaap/jenkins-automation)
 
 Jenkins is a self-contained, open source automation server which can be used to automate all sorts of tasks such as
 building, testing, and deploying software.
