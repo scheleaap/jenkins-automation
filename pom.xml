@@ -10,7 +10,7 @@
   <packaging>jar</packaging>
 
   <properties>
-    <dockerImageName>depositsolutions/jenkins-automation</dockerImageName>
+    <dockerImageName>scheleaap/jenkins-automation</dockerImageName>
     <!-- If a proxy is needed while building the Jenkins, configure it here in the form of "http://1.2.3.4:3128/". To build locally, use the 'local' profile with "-P local". -->
     <http.proxy></http.proxy>
     <no.proxy>localhost,127.0.0.0/8,127.0.0.1</no.proxy>
