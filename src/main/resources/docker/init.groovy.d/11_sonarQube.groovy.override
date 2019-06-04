@@ -8,8 +8,9 @@ import hudson.plugins.sonar.utils.SQServerVersions
 def logger = Logger.getLogger("")
 def instance = Jenkins.getInstance()
 def pluginManager = instance.getPluginManager()
+def plugin = pluginManager.getPlugin('sonar')
 
-if (pluginManager.getPlugin('sonar')) {
+if (plugin != null && plugin.isActive()) {
     def descriptor = instance.getDescriptor(SonarGlobalConfiguration.class)
     def sonarInstance = new SonarInstallation(
             "myinst",  // name of the installation
