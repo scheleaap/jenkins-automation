@@ -1,7 +1,7 @@
 # Build from latest LTS version
 FROM jenkins/jenkins:2.107.3-alpine
-LABEL "maintainer"="Deposit Solutions"
-LABEL "github-url"="https://github.com/depositsolutions/jenkins-automation"
+LABEL "maintainer"="scheleaap"
+LABEL "github-url"="https://github.com/scheleaap/jenkins-automation"
 
 ARG httpProxy
 ARG noProxy

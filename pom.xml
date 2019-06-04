@@ -4,7 +4,7 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.depositsolutions.infrastructure</groupId>
+  <groupId>info.maaskant</groupId>
   <artifactId>auto-jenkins</artifactId>
   <version>latest</version>
   <packaging>jar</packaging>
@@ -19,7 +19,7 @@
   </properties>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:depositsolutions/jenkins-automation.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:scheleaap/jenkins-automation.git</developerConnection>
   </scm>
 
   <build>
