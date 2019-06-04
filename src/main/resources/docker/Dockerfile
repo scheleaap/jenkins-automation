@@ -1,5 +1,5 @@
 # Build from latest LTS version
-FROM jenkins/jenkins:2.107.3-alpine
+FROM jenkins/jenkins:2.178-alpine
 LABEL "maintainer"="scheleaap"
 LABEL "github-url"="https://github.com/scheleaap/jenkins-automation"
 
