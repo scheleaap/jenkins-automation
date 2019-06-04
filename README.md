@@ -80,6 +80,11 @@ mvn clean install -Plocal
 ```
 
 
+## Future work
+
+Use Jenkins Configuration as Code: https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/README.md
+
+
 ## Literature
 
 * [Jenkins Job DSL API](https://jenkinsci.github.io/job-dsl-plugin/)
